@@ -1,0 +1,21 @@
+{
+    "extends": [
+      "standard",
+      "plugin:flowtype/recommended"
+    ],
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 9,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "flowtype"
+    ]
+}
