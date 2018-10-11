@@ -25,7 +25,9 @@
     "metro-react-native-babel-preset": "^0.48.1",
     "react-test-renderer": "16.5.2"
   },
+  "//": "see https://github.com/facebook/metro/issues/242#issuecomment-421139247",
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transform": { "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js" }
   }
 }

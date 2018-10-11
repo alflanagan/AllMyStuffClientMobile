@@ -1,5 +1,7 @@
 # All My Stuff Mobile Client
 
+[![Build Status](https://travis-ci.com/alflanagan/AllMyStuffClientMobile.svg?branch=master)](https://travis-ci.com/alflanagan/AllMyStuffClientMobile)
+
 This is the mobile client for my cloud-based note-taking application. Eventually it should support
 all kinds of records, not just notes.
 
