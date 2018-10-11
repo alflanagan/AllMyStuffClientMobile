@@ -4,7 +4,7 @@
 # `react-native run-android`. This (usually) clears the problem up.
 watchman watch-del-all
 rm -rf node_modules && yarn
-rm -rf /tmp/haste-map-react-native-packager-*
+rm -rf ${TMPDIR}/haste-map-* ${TMPDIR}/metro-cache/*
 cd android || exit
 ./gradlew clean
 cd ..
