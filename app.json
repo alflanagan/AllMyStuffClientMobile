@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "AllMyStuffClientFix",
-    "description": "This project is really great.",
-    "slug": "AllMyStuffClientFix",
+    "name": "All My Stuff",
+    "description": "My personal note-taking app (for now).",
+    "slug": "all_my_stuff_client",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
